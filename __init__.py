@@ -1,2 +1,2 @@
-from .src.api import HFEndpoint
-from .src.models import EndpointPayload
+from .src.hfendpoint3.api import HFEndpoint
+from .src.hfendpoint3.models import EndpointPayload
