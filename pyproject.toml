@@ -1,10 +1,30 @@
+[project]
+name = "hfendpoint2_amj808"
+version = "0.1.2"
+authors = [
+  { name="AMJ", email="jam1453@gmail.com" },
+]
+description = "Test For HF Endpoint Utility Package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/barbaroja2000/hf_endpoint"
+Issues = "https://github.com/barbaroja2000/hf_endpoint/issues"
+
+
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-name = "hf_endpoint"
-version = "0.1.0"
+name = "hfendpoint2"
+version = "0.1.2"
 description = "Interact with HF inference endpoints"
 authors = ["AMJ <jam1453@gmail.com>"]
 
@@ -17,5 +37,5 @@ pytest-mock = "3.12.0"
 pydantic = "2.5.2"
 
 [[tool.poetry.packages]]
-include = "src"
-from = "."
+include = "hfendpoint2"
+from = "src"
