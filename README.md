@@ -1,21 +1,21 @@
 # Hugging Face API Client
 
-This package provides a Python client for interacting with the Hugging Face API.
+This package provides a Python client for interacting with the Hugging Face Rest interfaces for Inference Endpoints `https://api.endpoints.huggingface.cloud/`
 
 ## Installation
 
 You can install this package using pip:
 
 ```bash
-pip install hf-api-client
+pip install -i https://test.pypi.org/simple/ hfendpoint3
 ```
 
 ## Usage
 
-First, import the `HFEndpoint` class from the `hf` package:
+First, import the `HFEndpoint` class from the `hfendpoint3` package:
 
 ```python
-from hf import HFEndpoint
+from hfendpoint3 import HFEndpoint
 ```
 
 Then, create an instance of `HFEndpoint` with your API token and account name:
