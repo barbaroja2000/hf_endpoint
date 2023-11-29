@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 
 setup(
-    name='hfendpoint2',
+    name='hfendpoint3',
     version='0.1.2',
     description='A Python client for the HF endpoint API',
     author='AMJ',

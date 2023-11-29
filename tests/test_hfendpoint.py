@@ -1,6 +1,6 @@
 import pytest
-from hfendpoint.src.api import HFEndpoint
-from hfendpoint.src.models import EndpointPayload
+from hfendpoint.src.hfendpoint2.api import HFEndpoint
+from hfendpoint.src.hfendpoint2.models import EndpointPayload
 
 def test_init_valid():
     endpoint = HFEndpoint('valid_token', 'valid_account')

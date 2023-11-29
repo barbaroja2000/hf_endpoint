@@ -1,5 +1,5 @@
 [project]
-name = "hfendpoint2_amj808"
+name = "hfendpoint3"
 version = "0.1.2"
 authors = [
   { name="AMJ", email="jam1453@gmail.com" },
@@ -23,7 +23,7 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-name = "hfendpoint2"
+name = "hfendpoint3"
 version = "0.1.2"
 description = "Interact with HF inference endpoints"
 authors = ["AMJ <jam1453@gmail.com>"]
@@ -37,5 +37,5 @@ pytest-mock = "3.12.0"
 pydantic = "2.5.2"
 
 [[tool.poetry.packages]]
-include = "hfendpoint2"
+include = "hfendpoint3"
 from = "src"
