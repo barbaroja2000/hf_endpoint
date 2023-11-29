@@ -10,6 +10,7 @@ You can install this package using pip:
 pip install -i https://test.pypi.org/simple/ hfendpoint3
 ```
 
+
 ## Usage
 
 First, import the `HFEndpoint` class from the `hfendpoint3` package:
